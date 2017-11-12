@@ -23,8 +23,8 @@ animations = [ {
 [sub_resource type="CapsuleShape2D" id=2]
 
 custom_solver_bias = 0.0
-radius = 19.5521
-height = 9.53202
+radius = 26.4678
+height = 14.868
 
 [sub_resource type="Gradient" id=3]
 
@@ -41,7 +41,7 @@ width = 2048
 min_value = 0.0
 max_value = 1.0
 bake_resolution = 100
-_data = [ Vector2( 0.00170928, 0.886719 ), 0.0, 0.0, 0, 0, Vector2( 1, 0.306641 ), 0.0, 0.0, 0, 0 ]
+_data = [ Vector2( 0, 0.510742 ), 0.0, 0.0, 0, 0, Vector2( 1, 0.166992 ), 0.0, 0.0, 0, 0 ]
 
 [sub_resource type="CurveTexture" id=6]
 
@@ -90,6 +90,7 @@ _sections_unfolded = [ "Color", "Gravity", "Scale" ]
 
 [node name="Player" type="Area2D"]
 
+position = Vector2( 37.9541, 69.5826 )
 input_pickable = true
 gravity_vec = Vector2( 0, 1 )
 gravity = 98.0
@@ -106,7 +107,7 @@ SPEED = 400.0
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 
-scale = Vector2( 1.1, 1.1 )
+scale = Vector2( 0.5, 0.5 )
 frames = SubResource( 1 )
 animation = "right"
 _sections_unfolded = [ "Region", "Transform", "Z" ]

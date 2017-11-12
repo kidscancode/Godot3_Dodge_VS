@@ -30,8 +30,8 @@ animations = [ {
 [sub_resource type="CapsuleShape2D" id=2]
 
 custom_solver_bias = 0.0
-radius = 23.5235
-height = 19.1272
+radius = 36.2325
+height = 25.2139
 
 [node name="Mob" type="RigidBody2D"]
 
@@ -58,21 +58,20 @@ _sections_unfolded = [ "Angular", "Collision", "Transform" ]
 __meta__ = {
 "_edit_group_": true
 }
-MIN_SPEED = 150
-MAX_SPEED = 250
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 
-scale = Vector2( 1.5, 1.5 )
+scale = Vector2( 0.75, 0.75 )
 frames = SubResource( 1 )
 animation = "swim"
-frame = 1
 playing = true
 _sections_unfolded = [ "Transform" ]
 
 [node name="Collision" type="CollisionShape2D" parent="."]
 
+rotation = 1.5708
 shape = SubResource( 2 )
+_sections_unfolded = [ "Transform" ]
 
 [node name="Visibility" type="VisibilityNotifier2D" parent="."]
 
