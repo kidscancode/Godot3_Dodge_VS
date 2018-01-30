@@ -4,6 +4,14 @@ importer="texture"
 type="StreamTexture"
 path="res://.import/playerGrey_walk1.png-c4773fe7a7bf85d7ab732eb4458c2742.stex"
 
+[deps]
+
+source_file="res://art/playerGrey_walk1.png"
+source_md5="7892ed98ba910fbda0d37266127e96bb"
+
+dest_files=[ "res://.import/playerGrey_walk1.png-c4773fe7a7bf85d7ab732eb4458c2742.stex" ]
+dest_md5="549a3acc48d89d28fb6767b179288597"
+
 [params]
 
 compress/mode=0

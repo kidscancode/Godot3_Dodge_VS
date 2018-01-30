@@ -59,7 +59,7 @@ __meta__ = {
 "_edit_group_": true
 }
 
-[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+[node name="AnimatedSprite" type="AnimatedSprite" parent="." index="0"]
 
 scale = Vector2( 0.75, 0.75 )
 frames = SubResource( 1 )
@@ -67,13 +67,13 @@ animation = "swim"
 playing = true
 _sections_unfolded = [ "Transform" ]
 
-[node name="Collision" type="CollisionShape2D" parent="."]
+[node name="Collision" type="CollisionShape2D" parent="." index="1"]
 
 rotation = 1.5708
 shape = SubResource( 2 )
 _sections_unfolded = [ "Transform" ]
 
-[node name="Visibility" type="VisibilityNotifier2D" parent="."]
+[node name="Visibility" type="VisibilityNotifier2D" parent="." index="2"]
 
 rect = Rect2( -10, -10, 20, 20 )
 
