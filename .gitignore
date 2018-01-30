@@ -1,2 +1,4 @@
-.import
+.DS_Store
+*~
+.import/
 logs/
